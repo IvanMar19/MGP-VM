@@ -1,0 +1,41 @@
+CASOS — METODOLOGÍA DE GEOLOCALIZACIÓN PERICIAL (MGP)
+=====================================================
+
+Por cada investigación, duplicar la carpeta PLANTILLA-CASO y
+renombrarla con el identificador del caso (ej. INV-2026-001).
+Cumplimentar las plantillas y depositar la evidencia y los anexos
+en sus carpetas correspondientes.
+
+ESTRUCTURA DE CADA CASO
+-----------------------
+- Evidencia/   Archivo(s) original(es) del contenido analizado o,
+               si no existe archivo original, su preservación
+               (página guardada, grabación de pantalla), junto con
+               sus huellas criptográficas (hash SHA-256).
+
+- Plantillas-MGP/  Copia de las plantillas MGP para cumplimentar en
+               este caso.
+
+- Anexos/      Material de soporte del informe pericial:
+
+    Anexo A/    Objeto de análisis y huellas: contenido analizado,
+               elementos derivados (fotogramas, transcripciones),
+               sus hashes SHA-256 y sus metadatos.
+
+    Anexo B/    Documentación de las verificaciones: capturas de
+               pantalla de cada verificación realizada, con marca
+               temporal.
+
+    Anexo C/    Registro cronológico de la investigación (diario),
+               con las fases ejecutadas y sus fechas y horas.
+
+RECOMENDACIONES
+---------------
+- Trabajar siempre sobre copias; no modificar las plantillas en
+  blanco originales.
+- Nombrar las capturas con un identificador correlativo
+  (ej. C-001.png) y los fotogramas con el suyo (ej. F-001.png).
+- Calcular el hash de las capturas al cierre
+  (ej. sha256sum capturas/* > hashes_capturas.txt).
+- Conservar la evidencia íntegra; verificar su hash al inicio y
+  al cierre de la investigación.
